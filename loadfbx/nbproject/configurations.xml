@@ -5,13 +5,11 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>fbxviewer.h</itemPath>
-      <itemPath>loadfbx.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>fbxviewer.cpp</itemPath>
-      <itemPath>loadfbx.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -63,10 +61,6 @@
       </item>
       <item path="fbxviewer.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="loadfbx.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="loadfbx.h" ex="false" tool="3" flavor2="0">
-      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -113,10 +107,6 @@
       <item path="fbxviewer.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="fbxviewer.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="loadfbx.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="loadfbx.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/src/fbxmath.o \
 	${OBJECTDIR}/src/fbxscene.o \
 	${OBJECTDIR}/src/fbxutil.o \
+	${OBJECTDIR}/src/loadfbx.o \
 	${OBJECTDIR}/src/variant.o
 
 
@@ -79,6 +80,11 @@ ${OBJECTDIR}/src/fbxutil.o: src/fbxutil.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -Iinclude/openfbx -std=c++11 -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/fbxutil.o src/fbxutil.cpp
+
+${OBJECTDIR}/src/loadfbx.o: src/loadfbx.cpp 
+	${MKDIR} -p ${OBJECTDIR}/src
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -Iinclude/openfbx -std=c++11 -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/loadfbx.o src/loadfbx.cpp
 
 ${OBJECTDIR}/src/variant.o: src/variant.cpp 
 	${MKDIR} -p ${OBJECTDIR}/src

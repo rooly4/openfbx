@@ -35,8 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/fbxviewer.o \
-	${OBJECTDIR}/loadfbx.o
+	${OBJECTDIR}/fbxviewer.o
 
 
 # C Compiler Flags
@@ -69,11 +68,6 @@ ${OBJECTDIR}/fbxviewer.o: fbxviewer.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -I../include/openfbx -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/fbxviewer.o fbxviewer.cpp
-
-${OBJECTDIR}/loadfbx.o: loadfbx.cpp 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -I../include/openfbx -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/loadfbx.o loadfbx.cpp
 
 # Subprojects
 .build-subprojects:

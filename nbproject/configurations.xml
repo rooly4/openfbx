@@ -7,6 +7,7 @@
       <itemPath>include/openfbx/fbxmath.h</itemPath>
       <itemPath>include/openfbx/fbxscene.h</itemPath>
       <itemPath>include/openfbx/fbxutil.h</itemPath>
+      <itemPath>include/openfbx/loadfbx.h</itemPath>
       <itemPath>include/openfbx/variant.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -19,6 +20,7 @@
       <itemPath>src/fbxmath.cpp</itemPath>
       <itemPath>src/fbxscene.cpp</itemPath>
       <itemPath>src/fbxutil.cpp</itemPath>
+      <itemPath>src/loadfbx.cpp</itemPath>
       <itemPath>src/variant.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -55,6 +57,8 @@
       </item>
       <item path="include/openfbx/fbxutil.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/openfbx/loadfbx.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/openfbx/variant.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/fbxmath.cpp" ex="false" tool="1" flavor2="0">
@@ -62,6 +66,8 @@
       <item path="src/fbxscene.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/fbxutil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/loadfbx.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/variant.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -93,6 +99,8 @@
       </item>
       <item path="include/openfbx/fbxutil.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/openfbx/loadfbx.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/openfbx/variant.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/fbxmath.cpp" ex="false" tool="1" flavor2="0">
@@ -100,6 +108,8 @@
       <item path="src/fbxscene.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/fbxutil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/loadfbx.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/variant.cpp" ex="false" tool="1" flavor2="0">
       </item>
